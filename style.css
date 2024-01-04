@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+
+.navigasi {
+    background-color: blue;
+    background-size: cover;
+    width: 100%;
+    height: 70px;
+    color: white;
+    position: fixed;
+}
+
+
+.logo{
+    float: left;
+ padding-top: 20px;
+ padding-bottom: 10px;
+ padding-left: 30px;
+}
+
+.menu{
+    margin-left: 800px;
+    padding-top: 25px;
+    
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 75%;
+}
+.menu ul li{
+    cursor: pointer;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li a:hover {
+    color: lightskyblue;
+    font-style: italic;
+}
+
+.banner{
+    background-color: #3b4999;
+    height: 800px;
+    text-align: center;
+    color: white;
+}
+
+.banner img{
+border-radius: 100px;
+height: 150px;
+border: 6px solid white;
+margin-top: 100px;
+}
+
+.banner h1{
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+
+.banner button{
+    margin-top: 60px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+}
+
+.banner button:hover {
+    background-color: #3b4999;
+    border: 1px solid white;
+    color: white;
+}
+
+h1 span::before{
+  content: "";
+  animation: gerak infinite 8s ease;
+  transform: translateY(-50%);
+  color: lightblue;
+  font-size: 65px;
+}
+
+@keyframes gerak{
+    0% {
+        content: 'Selamat Datang';
+    }
+    50% {
+        content: 'Saya Fajar Taufik';
+    }
+    100%{
+        content: 'Terima kasih Sudah Singgah';
+    }
+}
+
+
+.Box-pendidikan{
+    text-align: center;
+    color: #4d4d4d;
+    margin-top: 50px;
+    align-content: center;
+}
+
+.box-kiri, .box-tengah, .box-kanan {
+    width: 300px;
+    height: 320px;
+    background-color: rgb(201, 195, 195);
+    text-align: center;
+    padding: 30px 30px;
+    margin: 60px 20px 20px 55px;
+    border-radius: 10px;
+    float: left;
+}
+
+.box-kiri:hover, .box-tengah:hover, .box-kanan:hover{
+    background-color: #3b6999;
+    color: white;
+}
+
+.Box-pendidikan h3, p{
+    margin-top: 7px;
+    margin-bottom: 10px;
+    padding: 0px 20px;
+}
+
+.Box-Softskill{
+    text-align: center;
+    color: #4d4d4d;
+    margin: 0px auto;
+    margin-top: 550px;
+}
+
+.box-kontak img{
+    width: 100px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.box-kontak{
+    text-align: center;
+    color: #4d4d4d;
+    margin-top: 450px;
+}
+
+.footer{
+    background-color: gray;
+    width: 1400px;
+    height: 30px;
+    color: white;
+    padding: 4px;
+    margin: 100px auto 20px;
+    text-align: center;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+
+.container .heading{
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.container .heading h3{
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #222;
+}
+
+.container.heading h3 span{
+    font-weight: 100;
+}
+
+.container.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.container.box .dream{
+    display: flex;
+    flex-direction: column;
+    width: 32,5%;
+}
+.container.box.dream img{
+    width: 100%;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+ 
+.banner2{ 
+    background-color: #3b4999;
+    height: 800px;
+    text-align: center;
+    color: white;
+}
+
+.banner2 img{
+    border-radius: 100px;
+    height: 150px;
+    border: 6px solid white;
+    margin-top: 100px;
+    }
+.banner2 {
+    font-size: 23px;
+}
+
+.banner3{ 
+    background-color: #3b4999;
+    height: 800px;
+    text-align: center;
+    color: white; 
+}
+
+.banner3 img{
+    border-radius: 100px;
+    height: 150px;
+    border: 6px solid white;
+    margin-top: 100px;
+    }
+.banner3 {
+    font-size: 23px;
+}
+
+.banner4{ 
+    background-color: #3b4999;
+    height: 1000px;
+    text-align: center;
+    color: white; 
+}
+
+.banner4 img{
+    border-radius: 100px;
+    height: 150px;
+    border: 6px solid white;
+    margin-top: 100px;
+    }
+.banner4 {
+    font-size: 23px;
+}
